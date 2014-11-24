@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SmvpSDK</string>
+
+    <string name="title_activity_video_player">SmvpVideoPlayer</string>
+    <string name="code_reate_default">清晰度选择</string>
+
+    <string name="smooth">流畅</string>
+    <string name="standard">标清</string>
+    <string name="HD">高清</string>
+
+    <string name="default_time">--:--</string>
+    <string name="title_activity_full_screen">FullScreenActivity</string>
+
+    <string name="no_available_video">视频未转码，请转码后重试。</string>
+    <string name="no_available_url">视频地址不能为空</string>
+</resources>
