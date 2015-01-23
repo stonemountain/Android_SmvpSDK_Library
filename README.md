@@ -1,5 +1,6 @@
 Android_SmvpSDK_Library
 =======================
+重要更新说明：SmvpSDK和Demo近期将要更新,原来的token将要删除，Token删除后,Demo的所有功能都不能使用。新上传的Demo不再提供Token，有需要请联系石山视频技术支持：2878649713。
 
 使用AndroidStudio开发时，只需要使用For_AndroidStudio目录下的文件,方法如下：
 1.点击File--->New Module，选择“Import .JAR or .AAR Package”---->Next,选择SmvpSDK.aar包，填写“Subproject name”，例如“SmvpSDK”，点击“finish”。
