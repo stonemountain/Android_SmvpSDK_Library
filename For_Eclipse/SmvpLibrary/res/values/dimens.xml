@@ -9,8 +9,14 @@
     <dimen name="play_full_margin_right">10.0dip</dimen>
     <dimen name="play_pause_padding">0.0dip</dimen>
 
-    <!-- full screen -->
-    <dimen name="fullscreen_time_textsize">12.0sp</dimen>
+    <!-- Full Screen Controller-->
+    <dimen name="dimens_text_11">11.0dip</dimen>
+    <dimen name="dimens_text_13">13.0dip</dimen>
+    <dimen name="dimens_text_15">15.0dip</dimen>
+    <dimen name="dimens_view_10">10.0dip</dimen>
+    <dimen name="dimens_view_60">60.0dip</dimen>
+    <dimen name="dimens_view_75">75.0dip</dimen>
+
     <dimen name="fullscreen_time_width">33.0dip</dimen>
     <dimen name="fullscreen_footer_padding_left1">10.0dip</dimen>
     <dimen name="fullscreen_footer_padding_left2">13.0dip</dimen>
@@ -20,10 +26,6 @@
     <dimen name="fullscreen_btn_shrink_paddingRight">10dp</dimen>
     <dimen name="fullscreen_btn_quality_marginRight">10dp</dimen>
     <dimen name="fullscreen_btn_quality_width">50dp</dimen>
-    <dimen name="popup_window_item_width">60dp</dimen>
-    <dimen name="popup_window_item_height">32dp</dimen>
-    <dimen name="popup_window_x">70dp</dimen>
-    <dimen name="popup_window_y">70dp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 

@@ -4,9 +4,17 @@
     <style name="time_text_style">
         <item name="android:textColor">@android:color/white</item>
         <item name="android:gravity">center</item>
-        <item name="android:textSize">@dimen/fullscreen_time_textsize</item>
+        <item name="android:textSize">@dimen/dimens_text_15</item>
         <item name="android:singleLine">true</item>
-
     </style>
 
+    <style name="text_11_ffffffff">
+        <item name="android:textSize">@dimen/dimens_text_11</item>
+        <item name="android:textColor">@drawable/btn_white_blue_text_selecter</item>
+    </style>
+
+    <style name="text_15_blue_white">
+        <item name="android:textSize">@dimen/dimens_text_15</item>
+        <item name="android:textColor">@drawable/btn_white_blue_text_selecter</item>
+    </style>
 </resources>
