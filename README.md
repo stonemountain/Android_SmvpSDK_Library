@@ -6,6 +6,7 @@ Android_SmvpSDK_Library
 1.点击File--->New Module，选择“Import .JAR or .AAR Package”---->Next,选择SmvpSDK.aar包，填写“Subproject name”，例如“SmvpSDK”，点击“finish”。
 2.点击File--->Project Structure,选择左侧的Project，然后选择页面中间位置的“Dependencies”，点击最右侧的“+”，选择“3Module Dependency”，选择“SmvpSDK”。点击“OK”。
 3.点击“Build--->Clean Project”
+4.然后用同样的方法导入ijkmediaplayer
 
 使用Eclipse开发时，只需要使用For_Eclipse目录下的文件,SmvpSDK是Android Library Project，把SmvpSDK添加到原工程即可。具体如下：
 1.导入SmvpSDK到Eclipse，

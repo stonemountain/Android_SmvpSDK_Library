@@ -28,6 +28,7 @@ proguard/
 .classpath
 .project
 .gitignore~
+.settings
 
 
 
