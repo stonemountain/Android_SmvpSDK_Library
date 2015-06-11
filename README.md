@@ -4,7 +4,7 @@ Android_SmvpSDK_Library
 
 使用AndroidStudio开发时，只需要在原工程添加For_AndroidStudio/SmvpSDK.aar，导入方法如下：
 1.点击File--->New Module，选择“Import .JAR or .AAR Package”---->Next,选择SmvpSDK.aar包，填写“Subproject name”，例如“SmvpSDK”，点击“finish”。
-2.点击File--->Project Structure,选择左侧的Project，然后选择页面中间位置的“Dependencies”，点击最右侧的“+”，选择“3Module Dependency”，选择“SmvpSDK”。点击“OK”。
+2.点击File--->Project Structure,选择左侧的Project，然后选择页面中间位置的“Dependencies”，点击最右侧的“+”，选择“3.Module Dependency”，选择“SmvpSDK”。点击“OK”。
 3.点击“Build--->Clean Project”
 4.然后用同样的方法导入ijkmediaplayer
 
@@ -15,5 +15,14 @@ Android_SmvpSDK_Library
 4.点击Add ，打开了Project Selection对话框.
 5.从可用库项目列表选择一个项目，然后点击 OK.
 6.对话框关闭之后点击 Apply （在Properties窗口）,点击 OK 关闭Properties 窗口.
+7.修改APP的AndroidManifest.xml,添加以下内容:
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+        <activity
+            android:name="cn.smvp.android.sdk.view.PlayVideoActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape" />
 7.点击Project--->Clean
 
