@@ -19,10 +19,16 @@ Android_SmvpSDK_Library
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
 
         <activity
             android:name="cn.smvp.android.sdk.view.PlayVideoActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="landscape" />
+        <activity
+            android:name="cn.smvp.android.sdk.impl.WebViewActivity"
+            android:label="@string/title_activity_web_view"
+            android:theme="@android:style/Theme.Holo.Light"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
 7.点击Project--->Clean
 
